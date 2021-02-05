@@ -1,0 +1,102 @@
+/* ***************************************************************CSS for Extra************************************* */
+
+.extra {
+    height: 70px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+div.content p.content {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+/* ******************************************************************CSS for aboutUs********************************************8 */
+
+.aboutUs {
+    display: flex;
+    background-image: linear-gradient(to left, rgb(208, 236, 255), #f3f3f3);
+}
+
+.aboutUs div.content {
+    padding: 20px 100px;
+    text-align: justify;
+}
+
+div.content h3 {
+    font-weight: 500;
+}
+
+.aboutUs div.image {
+    /* position: absolute; */
+    margin: 3% 5% 0% 0%;
+    /* width: 30%; */
+    /* width: 400px; */
+}
+
+.as img {
+    width: 400px;
+    transition: 0.1s ease-in;
+}
+
+.as img:hover {
+    transition: 0.1s ease-in;
+    cursor: pointer;
+    box-shadow: 0 0 0 4px #bd272f, 0 2px 3px 4px rgba(0, 0, 0, .9);
+}
+
+.reachnum {
+    display: flex;
+    position: relative;
+    text-align: center;
+    left: 25%;
+    top: 13%;
+}
+
+.reachnum div {
+    padding: 0% 5%;
+}
+
+.middlereach {
+    border-left: 2px solid #bd272f;
+    border-right: 2px solid #bd272f;
+}
+
+.reach {
+    background-image: linear-gradient(to left, rgb(208, 236, 255), #f3f3f3);
+}
+
+
+/* *********************************Code for Gallery*************************************************deepak singh and kaustubh verma */
+
+div.gallery {
+    /* margin-top: 15%; */
+    margin-left: 15%;
+}
+
+div.gal {
+    margin-top: 15%;
+}
+
+div.img {
+    display: flex;
+    margin: 5%;
+}
+
+div.img div {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 30%;
+}
+
+div.img div h1 {
+    font-family: 'Frijole', cursive;
+    color: #be9a22;
+}
+
+div.img img {
+    border-radius: 10px;
+}

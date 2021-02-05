@@ -1,0 +1,282 @@
+/* 
+#fbe723 
+#bd272f
+*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    scroll-behavior: smooth;
+    background-color: #f3f3f3;
+}
+
+.what {
+    margin-bottom: 0;
+}
+
+.no {
+    margin-top: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.align-right.slide-in {
+    transform: translateX(30%)scale(0.95);
+}
+
+.align-left.slide-in {
+    transform: translateX(-30%)scale(0.95);
+}
+
+.slide-in {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+}
+
+
+/*  */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #c2111a;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #8b151b;
+}
+
+li.dropdownIcon {
+    visibility: hidden;
+}
+
+.scrolled {
+    background-color: #ffffff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px 4px rgba(0, 0, 0, .1);
+}
+
+div.nav-bar {
+    z-index: +10;
+    top: 0%;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+div.logo a img {
+    top: -5px;
+    left: 0px;
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    transition: 0.3s;
+}
+
+div.logo a img:hover {
+    height: 120px;
+    width: 170px;
+    transition: 0.3s;
+}
+
+div.nav {
+    width: 100%;
+}
+
+div.nav ul {
+    text-align: center;
+    margin-left: -10%;
+}
+
+ul.links li {
+    display: inline-block;
+    list-style: none;
+    line-height: 65px;
+    margin: -1% 1%;
+    font-size: large;
+}
+
+ul.links li.getstart {
+    float: right;
+}
+
+li.getstart a {
+    font-size: larg;
+}
+
+li.getstart a {
+    border: 2px solid #bd272f;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #bd272f;
+}
+
+li.getstart a:hover {
+    font-size: large;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px 4px rgba(0, 0, 0, .1);
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+a.hover {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.3s;
+    position: relative;
+}
+
+a.hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.15rem;
+    background-color: #bd272f;
+    left: 0;
+    bottom: 0;
+    transform: scale(0, 1);
+    transition: 0.3s;
+}
+
+a.hover:hover::after {
+    color: #c79d10;
+    transition: 0.3s;
+    transform: scale(1, 1);
+}
+
+
+/**************************************************************** CSS for footer************************************************** */
+
+table.timings td {
+    text-align: center;
+}
+
+td:first-child {
+    color: #cebc1d;
+}
+
+footer {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px 4px rgba(0, 0, 0, .1);
+}
+
+h3.msg {
+    color: #c2111a;
+    margin-bottom: 5px;
+}
+
+p.MSG {
+    margin-top: 0px;
+}
+
+div.footer {
+    padding: 0px 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+div.footer div {
+    margin: 10px;
+}
+
+div.logo_map {
+    text-align: center;
+}
+
+div.logo_map div {
+    position: relative;
+    top: 15%;
+}
+
+div.logo_map div h1 {
+    color: #c2111a;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.inputsubs {
+    height: 2.7vw;
+    width: 15vw;
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 20px;
+    font-size: medium;
+}
+
+.buttonsubs {
+    color: #f8f8f8;
+    font-size: 1vw;
+    position: relative;
+    font-size: medium;
+    left: -5px;
+    border-radius: 0 5px 5px 0;
+    border: 0px;
+    background: #c2111a;
+    margin: 0;
+    height: 2.7vw;
+    width: 5vw;
+    cursor: pointer;
+}
+
+div.map {
+    border: 2px solid #c79d10;
+    padding: 2px;
+    width: fit-content;
+}
+
+div.address {
+    text-align: center;
+}
+
+span.span {
+    color: #c2111a;
+    font-weight: bolder;
+}
+
+div.copyright {
+    color: #fff;
+    background-color: #111;
+    padding: 1%;
+    text-align: center;
+}
+
+a.icons svg {
+    margin: 5px;
+    cursor: pointer;
+}
+
+a.scroll {
+    position: relative;
+    height: 52px;
+    float: right;
+}

@@ -1,0 +1,29 @@
+div.myslider {
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+    margin: 0px 25% 1px 25%;
+}
+
+img.img {
+    width: 100%;
+    height: 100%;
+}
+
+div.slider {
+    margin: 0;
+    background-color: rgb(253, 224, 229);
+}
+
+div.slider h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    margin: 0;
+    text-align: center;
+    color: #79fb23;
+}
+
+div.myslider img {
+    padding: 2%;
+    height: 250px;
+}
